@@ -123,7 +123,7 @@ class HttpRequestBuilder : HttpMessageBuilder {
 ```
 
 The `HttpClient` class only offers some basic functionality, and all the methods for building requests are exposed as extensions.\\
-You can check the standard available [HttpClient build extension methods](https://github.com/ktorio/ktor/blob/master/ktor-client/ktor-client-core/src/io/ktor/client/request/builders.kt).
+You can check the standard available [HttpClient build extension methods](https://api.ktor.io/{{ site.ktor_version }}/io.ktor.client.request/index.html).
 {: .note.api}
 
 ### The `submitForm` and `submitFormWithBinaryData` methods
