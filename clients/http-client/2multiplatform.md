@@ -80,6 +80,3 @@ Android and iOS applications directly from gradle.
 * `:client-mpp-ios:installSimulator` - installs the application inside the simulator
 * `:client-mpp-ios:launchSimulator` - executes the application inside the simulator
 
-Since those tasks are experimental, might fail with your specific setup. Please let us know so we can improve them.
-Or help us with [the iOS tasks](https://github.com/ktorio/ktor-samples/blob/master/mpp/client-mpp/ios/build.gradle){:target="_blank"},
-and [the Android ones](https://github.com/ktorio/ktor-samples/blob/master/mpp/client-mpp/android/build.gradle){:target="_blank"}
