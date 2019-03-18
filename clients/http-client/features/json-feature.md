@@ -59,6 +59,13 @@ To use this feature, you need to include `io.ktor:ktor-client-jackson` artifact.
 ### Kotlinx.Serialization
 {: #kotlinx-serialization }
 
+
+You have to add a maven repository to use `kotlinx.serialization` library and compiler plugin
+```gradle
+maven { url "https://kotlin.bintray.com/kotlinx" }
+```
+Follow [https://github.com/Kotlin/kotlinx.serialization](https://github.com/Kotlin/kotlinx.serialization) for the additional details.
+
 ```kotlin
 val client = HttpClient(HttpClientEngine) {
     install(JsonFeature) {
